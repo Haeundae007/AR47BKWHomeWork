@@ -12,7 +12,7 @@ void ValueChangePtr(int* Ptr)
 
     *Ptr = 0;
 }
-
+//밖에있는 주솟값을 넣어줘서 함수 안의 실행흐름이 아니라 완전히 밖에 있는 실행흐름의 값을 변경할 수 있게 된다.
 void ValueChangeValue(int Ptr)
 {
     Ptr = 0;
@@ -23,7 +23,7 @@ void Damage(int* _Ptr)
     *_Ptr -= 10;
 
     if (*_Ptr <= 0)
-    {
+    { 
         int A = 0;
     }
 }
@@ -39,7 +39,7 @@ int main()
         int* Ptr = &Value;
 
         //int** PtrPtr = &Ptr;
-
+        //ptr의 주소값의 주소값
 
         // 그 위치의 메모리를 사용하겠다.
         // 포인터 변수의 앞에 *을 붙이는 연산자는
@@ -85,3 +85,9 @@ int main()
 
     }
 }
+
+
+// *만 붙어있으면 그 포인터의 값
+// *에 &가 붙어있으면 주소값 사용??
+
+//언제*가 붙어야 하고 &가 붙어야 할지 너무 햇갈린다../
