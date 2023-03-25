@@ -23,7 +23,7 @@ int main()
 
     int Size1 = sizeof(Ref);
 
-
+    //함수 강의 다시 들어야 겠다...콘스트랑..
 
 }
 
