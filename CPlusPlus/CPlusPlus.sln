@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "050_ClassOperator", "050_Cl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HomeWork0327", "HomeWork0327\HomeWork0327.vcxproj", "{E8CD30D8-9506-4673-92E1-0A1821EBF5BF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HomeWork", "HomeWork", "{71131B64-3B89-49CC-B4FA-AF466D7DDF2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -114,6 +116,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8CD30D8-9506-4673-92E1-0A1821EBF5BF} = {71131B64-3B89-49CC-B4FA-AF466D7DDF2B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7AA9E0AF-D18E-42A7-95D7-F7A88562CD85}
