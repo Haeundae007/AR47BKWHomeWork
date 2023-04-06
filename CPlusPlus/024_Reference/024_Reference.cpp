@@ -13,7 +13,7 @@ void EquipRef(int& _Ref) // 인자를 레퍼런스로 넣어달라
 
 void TestFunction(const int& _Ref)
 {
-
+// 이 함수는 값이 안바뀔것이다!라는 의도 전달
 }
 
 int main()
