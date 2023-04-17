@@ -5,7 +5,7 @@ int main()
     // const char[8]
     // "aaaaaaa";
 
-    // const char* const <= const char[8]
+    // const char* const <= const char[8] ->a8개 배열을 포인터로 암시적 형변환해서 들어감~
     printf_s("aaaaaaa");
 
     {
@@ -36,6 +36,7 @@ int main()
         int* Ptr = nullptr;
         // Ptr = Value;
         // Value = Ptr;
+        
 
         //여기 있는 비트를 여기로 옮기고 싶다, 형변환
 
@@ -50,7 +51,7 @@ int main()
 
         // int Value = Arr;
         // Arr = Value;
-
+        
         
         // 
 

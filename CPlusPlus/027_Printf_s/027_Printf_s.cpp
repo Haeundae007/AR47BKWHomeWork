@@ -6,10 +6,10 @@
 void MyPrintf(const char* const _ptr)
 {
 	int Count = 0;
-	char Ch = 0;
+	char Ch = 0; // 값을 확인하는 습관
 	while (Ch = _ptr[Count], 0 != _ptr[Count])
 	{
-		putchar(Ch);
+		putchar(Ch);//이 함수를 왜 안알려줬지;;
 		Count += 1;
 	}
 }
@@ -24,8 +24,9 @@ int main()
 	// const char* Ptr = ArrTest;
 
 	// 포인터 문법중 하나인
-	// random index access 
-	char Ch0 = Ptr[-0];
+	// random index access 특정위치에 불시적으로 접근 가능, 
+	// 범위 밖 부분 메모리영역, 스택영역 접근 할 수 있음
+	char Ch0 = Ptr[-0]; 
 	char Ch1 = Ptr[-1];
 	char Ch2 = Ptr[-2];
 	char Ch3 = Ptr[-3];
