@@ -24,15 +24,22 @@ int Randomint()
 int main()
 {
     // SeedChange(5000);
+    //난수는 이 두 쌍으로 이루어진다. 시드(기본값)를 바꾸는 함수, 
+    //그걸 랜덤 돌려주는 함수
 
+    
+    //위험하긴 한데 
+    // 프로그램이 켜질 때 마다ram의 주소위치가 바뀌는걸 활용
     //int Value = 0;
     //srand((int)&Value);
 
     // 현재 시간을 리턴해줍니다.
 
-    // 시간은 보통 8바이트 정수로 줍니다.
+    // 시간은 보통 8바이트 정수로 줍니다, (현재시간을 return해줌)
     unsigned int Test = time(0);
-    srand(Test);
+    //시드를 바꿔주는 함수
+     srand(Test);
+    
 
     while (true)
     {
